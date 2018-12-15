@@ -1,0 +1,16 @@
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\bin\Debug\AllListingsReport.exe.config
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\bin\Debug\AllListingsReport.exe
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\bin\Debug\AllListingsReport.pdb
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\bin\Debug\Newtonsoft.Json.dll
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\bin\Debug\SharpRaven.dll
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\bin\Debug\Newtonsoft.Json.xml
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\obj\Debug\AllListingsReport.csprojAssemblyReference.cache
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\obj\Debug\AllListingsReport.csproj.CoreCompileInputs.cache
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\obj\Debug\AllListingsReport.csproj.CopyComplete
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\obj\Debug\AllListingsReport.exe
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\obj\Debug\AllListingsReport.pdb
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\bin\Debug\EntityFramework.dll
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\bin\Debug\EntityFramework.SqlServer.dll
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\bin\Debug\EntityFramework.xml
+E:\Users\Jorge Uribe\Local Solutions\TrainingsSln\AllListingsReport\bin\Debug\EntityFramework.SqlServer.xml

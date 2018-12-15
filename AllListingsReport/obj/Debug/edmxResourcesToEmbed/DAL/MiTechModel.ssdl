@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebStationModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'WebStation.AZ.All_Listings_Report' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="All_Listings_Report">
+          <Property Name="item_name" Type="nvarchar" MaxLength="4000" />
+          <Property Name="item_description" Type="nvarchar" MaxLength="4000" />
+          <Property Name="listing_id" Type="nvarchar" MaxLength="50" />
+          <Property Name="seller_sku" Type="nvarchar" MaxLength="50" />
+          <Property Name="price" Type="nvarchar" MaxLength="50" />
+          <Property Name="quantity" Type="nvarchar" MaxLength="50" />
+          <Property Name="open_date" Type="nvarchar" MaxLength="50" />
+          <Property Name="image_url" Type="nvarchar" MaxLength="50" />
+          <Property Name="item_is_marketplace" Type="nvarchar" MaxLength="50" />
+          <Property Name="product_id_type" Type="nvarchar" MaxLength="50" />
+          <Property Name="zshop_shipping_fee" Type="nvarchar" MaxLength="50" />
+          <Property Name="item_note" Type="nvarchar" MaxLength="4000" />
+          <Property Name="item_condition" Type="nvarchar" MaxLength="50" />
+          <Property Name="zshop_category1" Type="nvarchar" MaxLength="50" />
+          <Property Name="zshop_browse_path" Type="nvarchar" MaxLength="50" />
+          <Property Name="zshop_storefront_feature" Type="nvarchar" MaxLength="50" />
+          <Property Name="asin1" Type="nvarchar" MaxLength="50" />
+          <Property Name="asin2" Type="nvarchar" MaxLength="50" />
+          <Property Name="asin3" Type="nvarchar" MaxLength="50" />
+          <Property Name="will_ship_internationally" Type="nvarchar" MaxLength="50" />
+          <Property Name="expedited_shipping" Type="nvarchar" MaxLength="50" />
+          <Property Name="zshop_boldface" Type="nvarchar" MaxLength="50" />
+          <Property Name="product_id" Type="nvarchar" MaxLength="50" />
+          <Property Name="bid_for_featured_placement" Type="nvarchar" MaxLength="50" />
+          <Property Name="add_delete" Type="nvarchar" MaxLength="50" />
+          <Property Name="pending_quantity" Type="nvarchar" MaxLength="50" />
+          <Property Name="fulfillment_channel" Type="nvarchar" MaxLength="50" />
+          <Property Name="merchant_shipping_group" Type="nvarchar" MaxLength="50" />
+          <Property Name="status" Type="nvarchar" MaxLength="50" />
+          <Property Name="StampInsert" Type="smalldatetime" />
+        </EntityType>-->
+  <Function Name="sp_AmazonAPI_Apps" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pOption" Type="nvarchar" Mode="In" />
+    <Parameter Name="pParam00" Type="nvarchar" Mode="In" />
+    <Parameter Name="pParam01" Type="nvarchar" Mode="In" />
+    <Parameter Name="pParam02" Type="nvarchar" Mode="In" />
+    <Parameter Name="pParam03" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GetAllListingsReport" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pOption" Type="nvarchar" Mode="In" />
+    <Parameter Name="item_name" Type="nvarchar" Mode="In" />
+    <Parameter Name="item_description" Type="nvarchar" Mode="In" />
+    <Parameter Name="listing_id" Type="nvarchar" Mode="In" />
+    <Parameter Name="seller_sku" Type="nvarchar" Mode="In" />
+    <Parameter Name="price" Type="nvarchar" Mode="In" />
+    <Parameter Name="quantity" Type="nvarchar" Mode="In" />
+    <Parameter Name="open_date" Type="nvarchar" Mode="In" />
+    <Parameter Name="image_url" Type="nvarchar" Mode="In" />
+    <Parameter Name="item_is_marketplace" Type="nvarchar" Mode="In" />
+    <Parameter Name="product_id_type" Type="nvarchar" Mode="In" />
+    <Parameter Name="zshop_shipping_fee" Type="nvarchar" Mode="In" />
+    <Parameter Name="item_note" Type="nvarchar" Mode="In" />
+    <Parameter Name="item_condition" Type="nvarchar" Mode="In" />
+    <Parameter Name="zshop_category1" Type="nvarchar" Mode="In" />
+    <Parameter Name="zshop_browse_path" Type="nvarchar" Mode="In" />
+    <Parameter Name="zshop_storefront_feature" Type="nvarchar" Mode="In" />
+    <Parameter Name="asin1" Type="nvarchar" Mode="In" />
+    <Parameter Name="asin2" Type="nvarchar" Mode="In" />
+    <Parameter Name="asin3" Type="nvarchar" Mode="In" />
+    <Parameter Name="will_ship_internationally" Type="nvarchar" Mode="In" />
+    <Parameter Name="expedited_shipping" Type="nvarchar" Mode="In" />
+    <Parameter Name="zshop_boldface" Type="nvarchar" Mode="In" />
+    <Parameter Name="product_id" Type="nvarchar" Mode="In" />
+    <Parameter Name="bid_for_featured_placement" Type="nvarchar" Mode="In" />
+    <Parameter Name="add_delete" Type="nvarchar" Mode="In" />
+    <Parameter Name="pending_quantity" Type="nvarchar" Mode="In" />
+    <Parameter Name="fulfillment_channel" Type="nvarchar" Mode="In" />
+    <Parameter Name="merchant_shipping_group" Type="nvarchar" Mode="In" />
+    <Parameter Name="status" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="WebStationModelStoreContainer" />
+</Schema>

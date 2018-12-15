@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebStationModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MiTechEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="sp_AmazonAPI_Apps" ReturnType="Collection(Int64)">
+      <Parameter Name="pOption" Mode="In" Type="String" />
+      <Parameter Name="pParam00" Mode="In" Type="String" />
+      <Parameter Name="pParam01" Mode="In" Type="String" />
+      <Parameter Name="pParam02" Mode="In" Type="String" />
+      <Parameter Name="pParam03" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetAllListingsReport" ReturnType="Collection(String)">
+      <Parameter Name="pOption" Mode="In" Type="String" />
+      <Parameter Name="item_name" Mode="In" Type="String" />
+      <Parameter Name="item_description" Mode="In" Type="String" />
+      <Parameter Name="listing_id" Mode="In" Type="String" />
+      <Parameter Name="seller_sku" Mode="In" Type="String" />
+      <Parameter Name="price" Mode="In" Type="String" />
+      <Parameter Name="quantity" Mode="In" Type="String" />
+      <Parameter Name="open_date" Mode="In" Type="String" />
+      <Parameter Name="image_url" Mode="In" Type="String" />
+      <Parameter Name="item_is_marketplace" Mode="In" Type="String" />
+      <Parameter Name="product_id_type" Mode="In" Type="String" />
+      <Parameter Name="zshop_shipping_fee" Mode="In" Type="String" />
+      <Parameter Name="item_note" Mode="In" Type="String" />
+      <Parameter Name="item_condition" Mode="In" Type="String" />
+      <Parameter Name="zshop_category1" Mode="In" Type="String" />
+      <Parameter Name="zshop_browse_path" Mode="In" Type="String" />
+      <Parameter Name="zshop_storefront_feature" Mode="In" Type="String" />
+      <Parameter Name="asin1" Mode="In" Type="String" />
+      <Parameter Name="asin2" Mode="In" Type="String" />
+      <Parameter Name="asin3" Mode="In" Type="String" />
+      <Parameter Name="will_ship_internationally" Mode="In" Type="String" />
+      <Parameter Name="expedited_shipping" Mode="In" Type="String" />
+      <Parameter Name="zshop_boldface" Mode="In" Type="String" />
+      <Parameter Name="product_id" Mode="In" Type="String" />
+      <Parameter Name="bid_for_featured_placement" Mode="In" Type="String" />
+      <Parameter Name="add_delete" Mode="In" Type="String" />
+      <Parameter Name="pending_quantity" Mode="In" Type="String" />
+      <Parameter Name="fulfillment_channel" Mode="In" Type="String" />
+      <Parameter Name="merchant_shipping_group" Mode="In" Type="String" />
+      <Parameter Name="status" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>
