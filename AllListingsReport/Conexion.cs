@@ -4,6 +4,7 @@ using System.IO;
 using System.Windows.Forms;
 using AccesosDLL.Seguridad;
 
+// COMMIT TO JU-001
 namespace AccesosDLL.ConexionBD
 {
     public class Conexion
